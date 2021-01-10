@@ -1,0 +1,5 @@
+set PREVIEW_MODE "neofetch for 3ds? HOW \nMaker: UwUham \nTesters: Lazr \nHelpful Information: M1807"
+if $[ONTYPE] "O3DS"
+echo "       | User@3DS\n  ___  | OS: Nintendo 3DS system software\n |[_]| | Resolution: 800x240 // 320x240\n |+ ;| | CPU: ARM11 MPCore (2) @ 286MHz // ARM9 (1)\n `---' | GPU: DMP PICA200 @ 133MHz\n       | Memory: 65 MiB / 128 MiB"
+elif $[ONTYPE] "N3DS"
+echo "       | User@3DS\n  ___  | OS: Nintendo 3DS system software\n |[_]| | Resolution: 800x240 // 320x240\n |+ ;| | CPU: ARM11 MPCore (2) @ 804MHz // ARM9 (1)\n `---' | GPU: DMP PICA200 @ 133MHz\n       | Memory: 65 MiB / 128 MiB"
